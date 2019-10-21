@@ -14,13 +14,11 @@ The server mode and client mode can be selected at startup, and the SSID and pas
 	- Connect to IO22 pin and pull up
 
 ### How to enter server mode
-1. Turn off the Arduino devide.
-2. Turn on your Arduino device while holding down the ```Mode change button``` (IO22 pin).
+1. Turn off the devide.
+2. Turn on your device while holding down the ```Mode change button``` (IO22 pin).
 3. Connect to the access point ```ESP32-AP``` using a smartphone or PC.
     Password is **```12345678```**.
 <img src="https://i.imgur.com/EDKnExo.png" width="300px">
-4. Open web browser, and access ```192.168.4.1```.
-5. Enter SSID and password and press submit button.
+4. Open web browser, and access ```192.168.4.1``` and enter SSID and password and press submit button.
 <img src="https://i.imgur.com/6WORb1w.png" width="300px">
-6. If successful submitting, turn off the Arduino device.
-7. Turn on your Arduino device while **NOT** holding down the ```Mode change button```.
+5. If successful submitting, turn off the device and reboot while **NOT** holding down the ```Mode change button```.
